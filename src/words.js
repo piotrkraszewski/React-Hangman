@@ -1610,8 +1610,17 @@ var ENGLISH_WORDS = [
   "naval",
 ];
 
+
+var POLISH_WORDS = [
+'kot',
+'woda',
+'polska',
+'ulica',
+'gitara',
+'pies'  
+]
 function randomWord() {
-  return ENGLISH_WORDS[Math.floor(Math.random() * ENGLISH_WORDS.length)];
+  return POLISH_WORDS[Math.floor(Math.random() * POLISH_WORDS.length)];
 }
 
 export { randomWord };
