@@ -68,3 +68,62 @@
 #reset:hover{
   background-color: #ff9800;
 }
+
+/* ======================================== */
+
+@media (max-width: 600px) {
+  .Hangman img {
+    border: 4px solid white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+      0 0 40px rgba(0, 0, 0, 0.06) inset;
+    height: 9rem;
+  }
+  
+  .Hangman h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .Hangman-word {
+    letter-spacing: 1em;
+    margin: 0.4em -1em 0.2em 0;
+    font-size: 1.5rem;
+  }
+
+  .Hangman-guessed-wrong{
+    margin: 0;
+    font-size: small;
+  }
+  
+  .Hangman-btns {
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    margin-top: 0;
+  }
+  
+  .Hangman button {
+    border: none;
+    font-family: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    width: 25px;
+    margin: 5px 2px 2px 2px;
+    letter-spacing: 1px;
+    outline: none;
+    background: #ffc107;
+    color: #fff;
+    box-shadow: 0 6px #ff9800;
+    border-radius: 5px;
+    padding-top: 4px;
+  }
+  
+  #reset{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
